@@ -2,7 +2,7 @@ name: Upload to PyPI
 
 # Trigger the workflow on every release
 on:
-  release
+  push
 
 jobs:
   deploy:
